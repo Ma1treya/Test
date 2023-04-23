@@ -1,0 +1,154 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 100px;
+    gap: 70px;
+    border-radius: 10px;
+    background: #FFFFFF;
+
+    h2{
+        color: #151B32;
+        font-size: 32px;
+        font-weight: 900;
+        font-family: 'Merriweather';
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 1013px;
+        height: 64px;
+
+        .search{
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            width: 327px;
+            height: 64px;
+            border: 1px solid #BFC8E6;
+            padding: 16px;
+            p{
+                color: #151B32;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                opacity: 0.7;
+            }
+        }
+        .menu{
+            display: flex;
+            align-items: center;
+            width: 534px;
+            height: 56px;
+            border-radius: 4px;
+            ul{
+                display: flex;
+                align-items: center;
+                gap: 20px;
+                list-style: none;
+                li{
+                    color: #151B32;
+                    font-size: 16px;
+                    font-weight: 500;
+                    opacity: 0.8;
+
+                    button{
+                        color: #fff;
+                        width: 115px;
+                        height: 56px;
+                        border: none;
+                        border-radius: 10px;
+                        background: #849FFF;
+                    }
+                }
+            }
+        }
+    }
+    .list__user{
+        width: 1013px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+
+        .users{
+            width: 327px;
+            height: 208px;
+            padding: 24px;
+            background: #FBFCFF;
+            border-radius: 16px;
+
+            display: flex;
+            align-items: flex-start;
+            gap: 16px;
+            .img__user{
+                width: 97px;
+                height: 97px;
+            }
+            .user-1{
+                background: url(./img/Ellipse\ 1.png);
+            }
+            .user-2{
+                background: url(./img/Ellipse\ 2.png);
+            }
+            .user-3{
+                background: url(./img/Ellipse\ 3.png);
+            }
+            .user-4{
+                background: url(./img/Ellipse\ 4.png);
+            }
+            .user-5{
+                background: url(./img/Ellipse\ 5.png);
+            }
+            .user-6{
+                background: url(./img/Ellipse\ 6.png);
+            }
+            .info__user{
+                width: 160px;
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
+                .info{
+                    .name{
+                        color: #151B32;
+                        font-family: 'Merriweather';
+                        font-size: 18px;
+                        font-weight: 900;
+                        margin-bottom: 4px;
+                    }
+                    .address{
+                        color: #151B32;
+                        font-family: 'Poppins';
+                        font-size: 14px;
+                        font-weight: 500;
+                    }
+                }
+                .hobbies{
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 4px;
+                    .hobby{
+                        padding: 2px 8px;
+                        border: 1px solid #BFC8E6;
+                        border-radius: 10px;
+
+                        color: #516FD5;
+                        font-family: 'Poppins';
+                        font-size: 12px;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+    }
+}
